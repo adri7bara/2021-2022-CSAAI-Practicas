@@ -6,5 +6,9 @@ body {
 .nombre{
     font-family: 'Comic Sans MS';
     font-size: 45px;
-
 }
+
+/* Estilo para las cabeceras de cada apartado */
+.cabecera{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: 25px;
