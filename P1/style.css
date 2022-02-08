@@ -1,4 +1,4 @@
-body {
+body{
     background-color: rgb(187, 227, 230);
 }
   
@@ -13,6 +13,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
     font-size: 25px;
 }
+
 /* Estilo para las 3 cajas principales*/
 .caja1{
     float:left;
