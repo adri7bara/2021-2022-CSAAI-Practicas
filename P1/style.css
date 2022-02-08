@@ -35,12 +35,12 @@ body{
  }
 
 
-    .caja3{
-        float: right;
-        width: 70%;
-        height: 545px;
-        border: rgb(228, 176, 230) 5px groove;
-        border-radius: 5px;
-        padding: 10px;
-        background-color: rgba(255, 255, 255, 0.6);
+.caja3{
+    float: right;
+    width: 70%;
+    height: 545px;
+    border: rgb(228, 176, 230) 5px groove;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
 }
