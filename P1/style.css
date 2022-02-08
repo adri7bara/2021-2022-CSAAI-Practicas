@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(187, 227, 230);
+    background-image: rgb(white);
+}
+  
+/* Estilo para el nombre */
+.nombre{
+    font-family: 'Comic Sans MS';
+    font-size: 45px;
+
+}
