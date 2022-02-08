@@ -12,3 +12,14 @@ body {
 .cabecera{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
     font-size: 25px;
+
+     /* Estilo para las 3 cajas principales*/
+.caja1{
+    float:left;
+    width: 25%;
+    padding: 3px 10px;
+    border: rgb(228, 176, 230) 5px groove;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+ } 
