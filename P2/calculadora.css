@@ -1,1 +1,81 @@
+.pagina{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
 
+button{
+    background-color: rgba(173,216,230,0.7);
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    width: 80px;
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    margin: 5px 2px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    box-shadow: 5px 5px 10px -3px rgba(0,0,0,0.4), -5px -5px 15px 3px rgba(230,230,230,0.1) ;
+}  
+
+.operador{
+    background-color: rgba(123,104,238,1);
+}
+
+.igual{
+    background-color: rgba(123,104,238,1);
+}
+
+#AC{
+    background-color: rgba(205,92,92,0.7);
+}
+
+#delete{
+    background-color: rgba(205,92,92,0.7);
+}
+
+button:hover{
+    background-color: rgb(211,211,211);
+}
+
+#AC:hover{
+    background-color: rgb(211,211,211);
+}
+
+#delete:hover{
+    background-color: rgb(211,211,211);
+}
+
+.columnas2{
+    width: 185px;
+}
+
+.calculadora{
+    display: inline-block;
+    color: black;
+    background-color:  rgba(65,105,225,0.7);
+    text-align: center;
+    margin-left: 100px;
+    border-radius: 25px;
+    border: 2px solid rgba(72,61,139,0.7);
+    width: 500px;
+    padding: 20px;      
+    margin: 3px;
+    box-shadow: 15px 10px 0px 5px rgba(0,0,0,0.05);
+}
+
+#display{
+    color: black;
+    border-radius: 5px;
+    background: rgb(109, 103, 103);
+    height: 85px;
+    align-items: right;
+    margin: 10px 10px 25px;
+    font-size: 50px;
+    text-align:right;
+    font-family: 'Exo', sans-serif;
+    white-space: nowrap;
+    overflow: auto;
+    text-overflow: clip clip;
+}
