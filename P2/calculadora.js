@@ -1,3 +1,5 @@
+console.log("Ejecutando js..")
+
 //-- Estados de la calculadora
 const ESTADO = {
     INIT: 0,
