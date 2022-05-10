@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtro 5</title>
+    <link rel="stylesheet" href="filtro.css">
+    <script src="filtro.js" defer></script>
+  </head>
+  <body>
+    <div class="titulo">
+      FILTRO
+    </div>
+    <canvas id="canvas"></canvas>
+    <img src="imagen.jpg" id="imagesrc">
+    <div class="panel_control">
+      <div class="rgb">
+        <p>Establece el umbral de rojo:</p>
+        <input type="range" id="deslizador" min="0" max="255" value="255"/>
+        <p id="range_value">255</p>
+        <p>Establece el umbral de verde:</p>
+        <input type="range" id="deslizadorverde" min="0" max="255" value="255"/>
+        <p id="range_valueverde">255</p>
+        <p>Establece el umbral de azul:</p>
+        <input type="range" id="deslizadorazul" min="0" max="255" value="255"/>
+        <p id="range_valueazul">255</p>
+      </div>
+      <button class ="boton" id ="grises"  type="button" >GRISES</button>
+    </div>
+  </body>
+</html>
